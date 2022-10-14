@@ -1,10 +1,17 @@
+/**Main Stuff**/
+
 h1 {
     text-align: center;
     font-family:Arial, Helvetica, sans-serif
 }
 
 body {
-    background-color:rgb(202, 193, 180)
+    background-color:rgb(202, 193, 180);
+    text-align: center;
+}
+
+article>div {
+    border: solid 4px rgb(0, 0, 0);
 }
 
 article {
@@ -16,6 +23,7 @@ div {
     display: block;
 }
 
+/**Basic Flex Stuff**/
 .flex-item {
     background-color: black;
     color: white;
@@ -25,15 +33,15 @@ div {
     margin: 1em;
 }
 
-#flex-direction-container {
-    
-}
-
 .flex-items-container {
     display: flex;
     padding: 2em;
+    justify-content: space-between;
+    flex-wrap: wrap;
   
 }
+
+/**Column**/
 
 #flex-direction-column {
     flex-direction: column;
@@ -41,8 +49,18 @@ div {
     justify-content: space-between;
 }
 
+/**Flex Wrap**/
 #flex-wrap {
     flex-wrap: wrap;
 }
 
+/**Flex Center**/
+#justify-center {
+    justify-content: center;
+}
+
+/**Flex Grow**/
+#flex-grow .flex-item {
+    max-width: unset;
+}
 

@@ -24,7 +24,7 @@
     <h1>Flex Box Demo</h1>
 
     <!--Column-->
-    <article id="flex-direction-container">
+    <article>
         <div>
             <h3>Column</h3>
 
@@ -36,9 +36,10 @@
         <p>The flex-direction: column; aligns the objects in a column order.</p>
         </div>
     </article>
+<hr/>
 
     <!--Wrap-->
-    <article id="flex-wrap-container">
+    <article>
         <div>
             <h3>Wrap</h3>
             <div id="flex-wrap" class="flex-items-container">
@@ -53,34 +54,61 @@
             <p>The flex-wrap: wrap; sets it so when the browser changes size </br> the items will ajust into a row lower allowing for everything to be visable at all times </p>
         </div>
     </article>
-
+    <hr/>
     <!--Center-->    
-    <article id="flex-center-container">
-        <h3>Center</h3>
-        <div id="flex-center" class="flex-items0container">
-            
+    <article>
+        <div id="justify-center">
+            <h3>Center</h3>
+            <div class="flex-items-container">
+                
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">3</div>
 
-
+            </div>
         </div>
     </article>
-
+    <hr/>
 
 <!--Grow-->
-    <div class="grow">
-        <h3>Grow</h3>
-    </div>
+    <div>
+        
+        <article>
+            <div>
+                <h3>Grow</h3>
+                <div id="flex-grow" class="flex-items-container">
+                    
+                    <div class="flex-item" style="flex-grow: 2">1</div>
+                    <div class="flex-item">2</div>
+                    <div class="flex-item" style="flex-grow: 5">3</div>
+                    <div class="flex-item">4</div>
 
+                </div>
+            </div>
+        </article>
+    </div>
+<hr/>
 <!--Order-->
-    <div class="order">
-        <h3>Order</h3>
-    </div>
-
+    <article>
+        <div>
+            <h3>Order</h3>
+            <div id="flex-order" class="flex-items-container">
+                <div class="flex-item">1</div>
+                <div class="flex-item">3</div>
+                <div class="flex-item">2</div>
+                <div class="flex-item">4</div>
+            </div>
+        </div>
+    </article>
+<hr/>
 <!--Align-->
     <div class="align">
         <h3>Align</h3>
     </div>
 
+
+
+
+    
     </body>
-
-
 </html>
