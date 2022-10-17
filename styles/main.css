@@ -60,9 +60,13 @@ div {
 }
 
 /**Flex Grow**/
-#flex-grow .flex-item {
+#flex-grow {
     max-width: unset;
 }
 
 /**Flex Align**/
 
+#flex-align {
+    flex-wrap: wrap;
+    min-height: 50vh;
+}
